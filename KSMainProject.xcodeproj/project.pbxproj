@@ -10,12 +10,12 @@
 		051C3D732D49BBD3CFFA9D37 /* libPods-KSMainProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5658E5178C2AEC9D6ECF47C3 /* libPods-KSMainProject.a */; };
 		16A18BAC1E111E8E008C1986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A18BAB1E111E8E008C1986 /* main.m */; };
 		16A18BAF1E111E8E008C1986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A18BAE1E111E8E008C1986 /* AppDelegate.m */; };
-		16A18BB21E111E8E008C1986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A18BB11E111E8E008C1986 /* ViewController.m */; };
 		16A18BB51E111E8E008C1986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A18BB31E111E8E008C1986 /* Main.storyboard */; };
 		16A18BB71E111E8E008C1986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A18BB61E111E8E008C1986 /* Assets.xcassets */; };
 		16A18BBA1E111E8E008C1986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A18BB81E111E8E008C1986 /* LaunchScreen.storyboard */; };
 		16A18BC51E111E8E008C1986 /* KSMainProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A18BC41E111E8E008C1986 /* KSMainProjectTests.m */; };
 		16A18BD01E111E8E008C1986 /* KSMainProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A18BCF1E111E8E008C1986 /* KSMainProjectUITests.m */; };
+		16A18BE01E124D50008C1986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A18BDF1E124D50008C1986 /* ViewController.m */; };
 		4DA1410EDEBAB00FE9F1CCBD /* libPods-KSMainProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C74AF4DFC049E5B370F786 /* libPods-KSMainProjectTests.a */; };
 		5557C63E0F2C9E7C9AA29ABA /* libPods-KSMainProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A015B496E20B49F0D7215022 /* libPods-KSMainProjectUITests.a */; };
 /* End PBXBuildFile section */
@@ -43,8 +43,6 @@
 		16A18BAB1E111E8E008C1986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16A18BAD1E111E8E008C1986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16A18BAE1E111E8E008C1986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16A18BB01E111E8E008C1986 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16A18BB11E111E8E008C1986 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		16A18BB41E111E8E008C1986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16A18BB61E111E8E008C1986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16A18BB91E111E8E008C1986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +53,8 @@
 		16A18BCB1E111E8E008C1986 /* KSMainProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSMainProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A18BCF1E111E8E008C1986 /* KSMainProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSMainProjectUITests.m; sourceTree = "<group>"; };
 		16A18BD11E111E8E008C1986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A18BDE1E124D50008C1986 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16A18BDF1E124D50008C1986 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		17B5EFFB1FE03E4CA18C2CB2 /* Pods-KSMainProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMainProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSMainProjectTests/Pods-KSMainProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D28C0EA304E0F9F202ACD59 /* Pods-KSMainProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMainProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSMainProjectTests/Pods-KSMainProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5658E5178C2AEC9D6ECF47C3 /* libPods-KSMainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSMainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +118,9 @@
 		16A18BA91E111E8E008C1986 /* KSMainProject */ = {
 			isa = PBXGroup;
 			children = (
+				16A18BDD1E124D50008C1986 /* KSMainProject */,
 				16A18BAD1E111E8E008C1986 /* AppDelegate.h */,
 				16A18BAE1E111E8E008C1986 /* AppDelegate.m */,
-				16A18BB01E111E8E008C1986 /* ViewController.h */,
-				16A18BB11E111E8E008C1986 /* ViewController.m */,
 				16A18BB31E111E8E008C1986 /* Main.storyboard */,
 				16A18BB61E111E8E008C1986 /* Assets.xcassets */,
 				16A18BB81E111E8E008C1986 /* LaunchScreen.storyboard */,
@@ -155,6 +154,15 @@
 				16A18BD11E111E8E008C1986 /* Info.plist */,
 			);
 			path = KSMainProjectUITests;
+			sourceTree = "<group>";
+		};
+		16A18BDD1E124D50008C1986 /* KSMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				16A18BDE1E124D50008C1986 /* ViewController.h */,
+				16A18BDF1E124D50008C1986 /* ViewController.m */,
+			);
+			path = KSMainProject;
 			sourceTree = "<group>";
 		};
 		4466DB7B178F8BD42E3F5BD1 /* Pods */ = {
@@ -463,7 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A18BB21E111E8E008C1986 /* ViewController.m in Sources */,
+				16A18BE01E124D50008C1986 /* ViewController.m in Sources */,
 				16A18BAF1E111E8E008C1986 /* AppDelegate.m in Sources */,
 				16A18BAC1E111E8E008C1986 /* main.m in Sources */,
 			);
@@ -615,6 +623,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 27445UG82M;
 				INFOPLIST_FILE = KSMainProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSMainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -628,6 +637,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 27445UG82M;
 				INFOPLIST_FILE = KSMainProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingsum.KSMainProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -707,6 +717,7 @@
 				16A18BD61E111E8E008C1986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16A18BD71E111E8E008C1986 /* Build configuration list for PBXNativeTarget "KSMainProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +726,7 @@
 				16A18BD91E111E8E008C1986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16A18BDA1E111E8E008C1986 /* Build configuration list for PBXNativeTarget "KSMainProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +735,7 @@
 				16A18BDC1E111E8E008C1986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
