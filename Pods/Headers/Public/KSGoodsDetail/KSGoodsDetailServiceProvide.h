@@ -1,0 +1,1 @@
+../../../KSGoodsDetail/KSGoodsDetail/KSGoodsDetail/KSGoodsDetailServiceProvide.h

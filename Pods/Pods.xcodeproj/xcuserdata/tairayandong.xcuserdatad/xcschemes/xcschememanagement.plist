@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>KSGoodsDetail.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KSProtocolModuleManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KSMainProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KSMainProjectTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KSMainProjectUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>15223C5AD2303D1A528227FA4744765E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2EC7B49E01419EAAFC16D12CAE45102D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6411AD31909BA6CD294BF0B03F2A977A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B9FA9CCE6548A460F0C7C2815FA4E76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9027C8DEFD941A578BEB8AEC674C8986</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

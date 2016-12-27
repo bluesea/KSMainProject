@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0320DF8668145AB1651E6AA5C0C1059A /* KSGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE47AB4BEB4E4E745F229323B2A3C689 /* KSGoodsDetailViewController.m */; };
+		2123C95D92420EBEA849BED532C75A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		278B8C8EDCEEF84941188DEBA21AFF88 /* KSGoodsDetailServiceProvide.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB48B546668A4D974DC3F23F95DABED /* KSGoodsDetailServiceProvide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		308002EDA08CF3B2D276137DBEDE1071 /* KSProtocolModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBACDEFB0886C05E4D606DFA51D91C4 /* KSProtocolModuleManager.m */; };
+		31D4D7343EDA45C0B18877E861B0AC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		34E00DF6EBEA873F8F9760742685F9DA /* KSGoodsDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D576389C457A9C613B7A08335FB25D /* KSGoodsDetailServiceProvide.m */; };
+		454B2DAE8BAB4A5BC47A8AA0A443208D /* KSProtocolModuleManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7457DE9662203DA2CC7168F166B049 /* KSProtocolModuleManager-dummy.m */; };
+		525E3DF498AA16FDE758D56E995C2869 /* KSGoodsDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E907D4523263798C1CCBE84A87B73C /* KSGoodsDetail-dummy.m */; };
+		6CD76D478A6F183234A3244A7D5461A9 /* KSProtocolModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABE9F6012CD4ACC35FA2781C7356862 /* KSProtocolModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C5AB0BA6B2C73398D9A1A8C1E1FAD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		7935FCF514A2E3E6DBD1D0A2A3E25339 /* Pods-KSMainProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A3005A3C66374ACC12422CF82816 /* Pods-KSMainProjectUITests-dummy.m */; };
+		803D142358B4D97D79DB52D4D963827A /* Pods-KSMainProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779F781FD0977926F1E1FD273F295D12 /* Pods-KSMainProjectTests-dummy.m */; };
+		A46239838EF7D679E6422119F7220545 /* Pods-KSMainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 729FF113D2F729393EFC03F07678BFB2 /* Pods-KSMainProject-dummy.m */; };
+		A8D687B48976AB36BEEE0CA7668BA432 /* KSGoodsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53311D16D2957CF6E8FD9B245D1FACB7 /* KSGoodsDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04A9BEC3F4AA0F2DA972D9F6798A52F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E1939B9A7FB32466CDE56658ADB806B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		EB5504E4CEFF924F5150B418DEF209F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D3E83FF91D1B330CB1016BDBB6354D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC7B49E01419EAAFC16D12CAE45102D;
+			remoteInfo = KSProtocolModuleManager;
+		};
+		37C71526EDAC1ED10AB2058C73A704CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC7B49E01419EAAFC16D12CAE45102D;
+			remoteInfo = KSProtocolModuleManager;
+		};
+		671EAF178563F64C9E95CE46A7C94B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15223C5AD2303D1A528227FA4744765E;
+			remoteInfo = KSGoodsDetail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09231CEAF81D7752B86404E896C0D049 /* libPods-KSMainProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KSMainProjectUITests.a"; path = "libPods-KSMainProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EF9873EBF48B3A683DE4E4CFAD15A3 /* Pods-KSMainProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMainProjectTests-frameworks.sh"; sourceTree = "<group>"; };
+		176DBF86A172457E14C895FCD842D3B7 /* libPods-KSMainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KSMainProject.a"; path = "libPods-KSMainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C04C41852620C2CF8A43C9D7BF331A5 /* KSGoodsDetail.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSGoodsDetail.xcconfig; sourceTree = "<group>"; };
+		1C98BA57756DA2DD44AD84C101B8AA49 /* Pods-KSMainProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMainProject-frameworks.sh"; sourceTree = "<group>"; };
+		1CCA5FF63C4B2E9718AA9DDA56D32A23 /* Pods-KSMainProjectUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMainProjectUITests-resources.sh"; sourceTree = "<group>"; };
+		29A2F4E7914B186245C8A8CE6BBFD036 /* Pods-KSMainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMainProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F87D12416D847E4F2C2A362E079E608 /* Pods-KSMainProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMainProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E87B7624C66BCC8BA9C1B7CAA07E02E /* Pods-KSMainProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSMainProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D7457DE9662203DA2CC7168F166B049 /* KSProtocolModuleManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSProtocolModuleManager-dummy.m"; sourceTree = "<group>"; };
+		4FA8EBA826E13DFDB6C109907ACC9836 /* Pods-KSMainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSMainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50D2AC4D5AAD7A9BE180700BF0A98CB3 /* KSProtocolModuleManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSProtocolModuleManager.xcconfig; sourceTree = "<group>"; };
+		53311D16D2957CF6E8FD9B245D1FACB7 /* KSGoodsDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSGoodsDetailViewController.h; path = KSGoodsDetail/KSGoodsDetail/KSGoodsDetailViewController.h; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		729FF113D2F729393EFC03F07678BFB2 /* Pods-KSMainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSMainProject-dummy.m"; sourceTree = "<group>"; };
+		779F781FD0977926F1E1FD273F295D12 /* Pods-KSMainProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSMainProjectTests-dummy.m"; sourceTree = "<group>"; };
+		7B82DF4AA124913C3FA333ECF5FEB56F /* Pods-KSMainProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSMainProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C128B8A05EACF2312B8A4673EBA0627 /* Pods-KSMainProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMainProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8239E1FAB99FBB993169F890B5576EF1 /* KSGoodsDetail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSGoodsDetail-prefix.pch"; sourceTree = "<group>"; };
+		8499E827D13264204B0A3C575D97D216 /* libKSProtocolModuleManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKSProtocolModuleManager.a; path = libKSProtocolModuleManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		857DC6C878B422FA6598822A18628FFB /* Pods-KSMainProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMainProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABE9F6012CD4ACC35FA2781C7356862 /* KSProtocolModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSProtocolModuleManager.h; path = KSProtocolModuleManager/KSProtocolModuleManager/KSProtocolModuleManager.h; sourceTree = "<group>"; };
+		90789FDF5C11D639DAF97E692BD292C5 /* Pods-KSMainProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMainProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A6C34017E2C66D033B47E9BED90234 /* Pods-KSMainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9C45159F635F2C75D8F3F6793ECF7AE8 /* Pods-KSMainProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMainProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9EBACDEFB0886C05E4D606DFA51D91C4 /* KSProtocolModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSProtocolModuleManager.m; path = KSProtocolModuleManager/KSProtocolModuleManager/KSProtocolModuleManager.m; sourceTree = "<group>"; };
+		A9A36EBA0D8307510A52116AE9A16E7E /* Pods-KSMainProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMainProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3205B27EF366FE6684344DC39839E42 /* libPods-KSMainProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KSMainProjectTests.a"; path = "libPods-KSMainProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B840A3005A3C66374ACC12422CF82816 /* Pods-KSMainProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSMainProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		BE26DC8D39171E706198EB54B52977A3 /* Pods-KSMainProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMainProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CABBF984FAB7CE16108D0E6A6BCC2A4B /* Pods-KSMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMainProject.release.xcconfig"; sourceTree = "<group>"; };
+		CCE94367C5B284E94A12AD04C6D562AC /* KSGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSGoodsDetailServiceProtocol.h; path = KSGoodsDetailServiceProtocol/KSGoodsDetailServiceProtocol/KSGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
+		CCFC51BF5A2497CCAECB6ADC9645A8F0 /* Pods-KSMainProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMainProject-resources.sh"; sourceTree = "<group>"; };
+		CEB48B546668A4D974DC3F23F95DABED /* KSGoodsDetailServiceProvide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSGoodsDetailServiceProvide.h; path = KSGoodsDetail/KSGoodsDetail/KSGoodsDetailServiceProvide.h; sourceTree = "<group>"; };
+		D5454ED0B6532ADE4BCF86E9FD01B5DF /* libKSGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKSGoodsDetail.a; path = libKSGoodsDetail.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9448850CE1C170E67D70D134DF89926 /* Pods-KSMainProjectTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMainProjectTests-resources.sh"; sourceTree = "<group>"; };
+		DE47AB4BEB4E4E745F229323B2A3C689 /* KSGoodsDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSGoodsDetailViewController.m; path = KSGoodsDetail/KSGoodsDetail/KSGoodsDetailViewController.m; sourceTree = "<group>"; };
+		E0A631525CD7FE186051A03C7DB8F88A /* KSProtocolModuleManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSProtocolModuleManager-prefix.pch"; sourceTree = "<group>"; };
+		F3E907D4523263798C1CCBE84A87B73C /* KSGoodsDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSGoodsDetail-dummy.m"; sourceTree = "<group>"; };
+		F5D576389C457A9C613B7A08335FB25D /* KSGoodsDetailServiceProvide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSGoodsDetailServiceProvide.m; path = KSGoodsDetail/KSGoodsDetail/KSGoodsDetailServiceProvide.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17765821B630B7156BB5A8E1A2CFF629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1939B9A7FB32466CDE56658ADB806B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FC84B818C754210DAC50DFCE898EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2123C95D92420EBEA849BED532C75A1F /* Foundation.framework in Frameworks */,
+				EB5504E4CEFF924F5150B418DEF209F4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405BB623D86DDC19246B7C9BBA1B32AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C5AB0BA6B2C73398D9A1A8C1E1FAD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B843F2BD7031B8AE1ACC43465FA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A9BEC3F4AA0F2DA972D9F6798A52F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E11D1E8E5267D683566F06A59261E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D4D7343EDA45C0B18877E861B0AC9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043070769998B5E64313FA39E533EB6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5454ED0B6532ADE4BCF86E9FD01B5DF /* libKSGoodsDetail.a */,
+				8499E827D13264204B0A3C575D97D216 /* libKSProtocolModuleManager.a */,
+				176DBF86A172457E14C895FCD842D3B7 /* libPods-KSMainProject.a */,
+				B3205B27EF366FE6684344DC39839E42 /* libPods-KSMainProjectTests.a */,
+				09231CEAF81D7752B86404E896C0D049 /* libPods-KSMainProjectUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05543DB7A2D20F53DD6422050981CFBA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC539E097F96D5F27952FFE14F2D6487 /* Pods-KSMainProject */,
+				C66314FD14C48CB09818FC15B223CEFC /* Pods-KSMainProjectTests */,
+				9D5C0C31B3670D7C6FAFE0A9B8063DC9 /* Pods-KSMainProjectUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		08643203AC4588D7BCF7F04E16B8F2CA /* KSGoodsDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CCE94367C5B284E94A12AD04C6D562AC /* KSGoodsDetailServiceProtocol.h */,
+			);
+			name = KSGoodsDetailServiceProtocol;
+			path = KSGoodsDetailServiceProtocol;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B7314677E19CD06D86E0AAE9C629D34 /* KSGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CEB48B546668A4D974DC3F23F95DABED /* KSGoodsDetailServiceProvide.h */,
+				F5D576389C457A9C613B7A08335FB25D /* KSGoodsDetailServiceProvide.m */,
+				53311D16D2957CF6E8FD9B245D1FACB7 /* KSGoodsDetailViewController.h */,
+				DE47AB4BEB4E4E745F229323B2A3C689 /* KSGoodsDetailViewController.m */,
+				4F81EDC0768EC76929CAFB3BA2AF7505 /* Support Files */,
+			);
+			name = KSGoodsDetail;
+			path = KSGoodsDetail;
+			sourceTree = "<group>";
+		};
+		4C0359AD93595E597D52A4B84FEBE204 /* KSProtocolModuleManager */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE9F6012CD4ACC35FA2781C7356862 /* KSProtocolModuleManager.h */,
+				9EBACDEFB0886C05E4D606DFA51D91C4 /* KSProtocolModuleManager.m */,
+				DC696002EEB7C68F4080550E8F39B4DA /* Support Files */,
+			);
+			name = KSProtocolModuleManager;
+			path = KSProtocolModuleManager;
+			sourceTree = "<group>";
+		};
+		4F81EDC0768EC76929CAFB3BA2AF7505 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C04C41852620C2CF8A43C9D7BF331A5 /* KSGoodsDetail.xcconfig */,
+				F3E907D4523263798C1CCBE84A87B73C /* KSGoodsDetail-dummy.m */,
+				8239E1FAB99FBB993169F890B5576EF1 /* KSGoodsDetail-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KSGoodsDetail";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				82BCF6C3D51A69536B82AF648E87CEDC /* Pods */,
+				043070769998B5E64313FA39E533EB6B /* Products */,
+				05543DB7A2D20F53DD6422050981CFBA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82BCF6C3D51A69536B82AF648E87CEDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B7314677E19CD06D86E0AAE9C629D34 /* KSGoodsDetail */,
+				08643203AC4588D7BCF7F04E16B8F2CA /* KSGoodsDetailServiceProtocol */,
+				4C0359AD93595E597D52A4B84FEBE204 /* KSProtocolModuleManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D5C0C31B3670D7C6FAFE0A9B8063DC9 /* Pods-KSMainProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B82DF4AA124913C3FA333ECF5FEB56F /* Pods-KSMainProjectUITests-acknowledgements.markdown */,
+				9C45159F635F2C75D8F3F6793ECF7AE8 /* Pods-KSMainProjectUITests-acknowledgements.plist */,
+				B840A3005A3C66374ACC12422CF82816 /* Pods-KSMainProjectUITests-dummy.m */,
+				BE26DC8D39171E706198EB54B52977A3 /* Pods-KSMainProjectUITests-frameworks.sh */,
+				1CCA5FF63C4B2E9718AA9DDA56D32A23 /* Pods-KSMainProjectUITests-resources.sh */,
+				857DC6C878B422FA6598822A18628FFB /* Pods-KSMainProjectUITests.debug.xcconfig */,
+				2F87D12416D847E4F2C2A362E079E608 /* Pods-KSMainProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-KSMainProjectUITests";
+			path = "Target Support Files/Pods-KSMainProjectUITests";
+			sourceTree = "<group>";
+		};
+		AC539E097F96D5F27952FFE14F2D6487 /* Pods-KSMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				4FA8EBA826E13DFDB6C109907ACC9836 /* Pods-KSMainProject-acknowledgements.markdown */,
+				29A2F4E7914B186245C8A8CE6BBFD036 /* Pods-KSMainProject-acknowledgements.plist */,
+				729FF113D2F729393EFC03F07678BFB2 /* Pods-KSMainProject-dummy.m */,
+				1C98BA57756DA2DD44AD84C101B8AA49 /* Pods-KSMainProject-frameworks.sh */,
+				CCFC51BF5A2497CCAECB6ADC9645A8F0 /* Pods-KSMainProject-resources.sh */,
+				97A6C34017E2C66D033B47E9BED90234 /* Pods-KSMainProject.debug.xcconfig */,
+				CABBF984FAB7CE16108D0E6A6BCC2A4B /* Pods-KSMainProject.release.xcconfig */,
+			);
+			name = "Pods-KSMainProject";
+			path = "Target Support Files/Pods-KSMainProject";
+			sourceTree = "<group>";
+		};
+		C66314FD14C48CB09818FC15B223CEFC /* Pods-KSMainProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E87B7624C66BCC8BA9C1B7CAA07E02E /* Pods-KSMainProjectTests-acknowledgements.markdown */,
+				A9A36EBA0D8307510A52116AE9A16E7E /* Pods-KSMainProjectTests-acknowledgements.plist */,
+				779F781FD0977926F1E1FD273F295D12 /* Pods-KSMainProjectTests-dummy.m */,
+				11EF9873EBF48B3A683DE4E4CFAD15A3 /* Pods-KSMainProjectTests-frameworks.sh */,
+				D9448850CE1C170E67D70D134DF89926 /* Pods-KSMainProjectTests-resources.sh */,
+				7C128B8A05EACF2312B8A4673EBA0627 /* Pods-KSMainProjectTests.debug.xcconfig */,
+				90789FDF5C11D639DAF97E692BD292C5 /* Pods-KSMainProjectTests.release.xcconfig */,
+			);
+			name = "Pods-KSMainProjectTests";
+			path = "Target Support Files/Pods-KSMainProjectTests";
+			sourceTree = "<group>";
+		};
+		DC696002EEB7C68F4080550E8F39B4DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D2AC4D5AAD7A9BE180700BF0A98CB3 /* KSProtocolModuleManager.xcconfig */,
+				4D7457DE9662203DA2CC7168F166B049 /* KSProtocolModuleManager-dummy.m */,
+				E0A631525CD7FE186051A03C7DB8F88A /* KSProtocolModuleManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KSProtocolModuleManager";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EF317696635FF9F4C6A76249B1C1AC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD76D478A6F183234A3244A7D5461A9 /* KSProtocolModuleManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFAF28C79D55E1FA3FCBBD48133884E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278B8C8EDCEEF84941188DEBA21AFF88 /* KSGoodsDetailServiceProvide.h in Headers */,
+				A8D687B48976AB36BEEE0CA7668BA432 /* KSGoodsDetailViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15223C5AD2303D1A528227FA4744765E /* KSGoodsDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49663741670F14ED59BFE4EB1FFC41D0 /* Build configuration list for PBXNativeTarget "KSGoodsDetail" */;
+			buildPhases = (
+				A320DCF423835DFB32B9E0DE32103103 /* Sources */,
+				27FC84B818C754210DAC50DFCE898EFB /* Frameworks */,
+				7DFAF28C79D55E1FA3FCBBD48133884E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2585D3631225AE5CFBBB248E30CFF96 /* PBXTargetDependency */,
+			);
+			name = KSGoodsDetail;
+			productName = KSGoodsDetail;
+			productReference = D5454ED0B6532ADE4BCF86E9FD01B5DF /* libKSGoodsDetail.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EC7B49E01419EAAFC16D12CAE45102D /* KSProtocolModuleManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78BCA9AF60DF435A9E8180D3F2B37F4 /* Build configuration list for PBXNativeTarget "KSProtocolModuleManager" */;
+			buildPhases = (
+				6ABCFB2FC5492A43A28C8C9C8E54349A /* Sources */,
+				5F6B843F2BD7031B8AE1ACC43465FA80 /* Frameworks */,
+				6EF317696635FF9F4C6A76249B1C1AC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSProtocolModuleManager;
+			productName = KSProtocolModuleManager;
+			productReference = 8499E827D13264204B0A3C575D97D216 /* libKSProtocolModuleManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6411AD31909BA6CD294BF0B03F2A977A /* Pods-KSMainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B074B743B9A0013613AE27FFCE02F6D /* Build configuration list for PBXNativeTarget "Pods-KSMainProject" */;
+			buildPhases = (
+				B47B7DA55E253F535639912E706209C3 /* Sources */,
+				17765821B630B7156BB5A8E1A2CFF629 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAF294C8AFFFAA604FB535084D38BB8 /* PBXTargetDependency */,
+				8394B4F7D8C08E43AAD581C946338EF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-KSMainProject";
+			productName = "Pods-KSMainProject";
+			productReference = 176DBF86A172457E14C895FCD842D3B7 /* libPods-KSMainProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B9FA9CCE6548A460F0C7C2815FA4E76 /* Pods-KSMainProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E8DF32C1BC320AD3525BA8D849F82 /* Build configuration list for PBXNativeTarget "Pods-KSMainProjectTests" */;
+			buildPhases = (
+				683577B023AF0A25511A6A163111D81F /* Sources */,
+				405BB623D86DDC19246B7C9BBA1B32AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KSMainProjectTests";
+			productName = "Pods-KSMainProjectTests";
+			productReference = B3205B27EF366FE6684344DC39839E42 /* libPods-KSMainProjectTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9027C8DEFD941A578BEB8AEC674C8986 /* Pods-KSMainProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B626580CA26661356879B5FB565048A6 /* Build configuration list for PBXNativeTarget "Pods-KSMainProjectUITests" */;
+			buildPhases = (
+				826FF502370542B9DAAAB6301A31062E /* Sources */,
+				E3E11D1E8E5267D683566F06A59261E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KSMainProjectUITests";
+			productName = "Pods-KSMainProjectUITests";
+			productReference = 09231CEAF81D7752B86404E896C0D049 /* libPods-KSMainProjectUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 043070769998B5E64313FA39E533EB6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15223C5AD2303D1A528227FA4744765E /* KSGoodsDetail */,
+				2EC7B49E01419EAAFC16D12CAE45102D /* KSProtocolModuleManager */,
+				6411AD31909BA6CD294BF0B03F2A977A /* Pods-KSMainProject */,
+				8B9FA9CCE6548A460F0C7C2815FA4E76 /* Pods-KSMainProjectTests */,
+				9027C8DEFD941A578BEB8AEC674C8986 /* Pods-KSMainProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683577B023AF0A25511A6A163111D81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803D142358B4D97D79DB52D4D963827A /* Pods-KSMainProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABCFB2FC5492A43A28C8C9C8E54349A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454B2DAE8BAB4A5BC47A8AA0A443208D /* KSProtocolModuleManager-dummy.m in Sources */,
+				308002EDA08CF3B2D276137DBEDE1071 /* KSProtocolModuleManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826FF502370542B9DAAAB6301A31062E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7935FCF514A2E3E6DBD1D0A2A3E25339 /* Pods-KSMainProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A320DCF423835DFB32B9E0DE32103103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525E3DF498AA16FDE758D56E995C2869 /* KSGoodsDetail-dummy.m in Sources */,
+				34E00DF6EBEA873F8F9760742685F9DA /* KSGoodsDetailServiceProvide.m in Sources */,
+				0320DF8668145AB1651E6AA5C0C1059A /* KSGoodsDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B47B7DA55E253F535639912E706209C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46239838EF7D679E6422119F7220545 /* Pods-KSMainProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8394B4F7D8C08E43AAD581C946338EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSProtocolModuleManager;
+			target = 2EC7B49E01419EAAFC16D12CAE45102D /* KSProtocolModuleManager */;
+			targetProxy = 23D3E83FF91D1B330CB1016BDBB6354D /* PBXContainerItemProxy */;
+		};
+		F2585D3631225AE5CFBBB248E30CFF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSProtocolModuleManager;
+			target = 2EC7B49E01419EAAFC16D12CAE45102D /* KSProtocolModuleManager */;
+			targetProxy = 37C71526EDAC1ED10AB2058C73A704CF /* PBXContainerItemProxy */;
+		};
+		FCAF294C8AFFFAA604FB535084D38BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSGoodsDetail;
+			target = 15223C5AD2303D1A528227FA4744765E /* KSGoodsDetail */;
+			targetProxy = 671EAF178563F64C9E95CE46A7C94B05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070197A0122AC9569F1A8C3554DB4702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857DC6C878B422FA6598822A18628FFB /* Pods-KSMainProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0F8DE7BBD20E9CF372E27527ED9C2433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C04C41852620C2CF8A43C9D7BF331A5 /* KSGoodsDetail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSGoodsDetail/KSGoodsDetail-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2643874AF3FD5BB0C2BBB66896D9CB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A6C34017E2C66D033B47E9BED90234 /* Pods-KSMainProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B0AC5FB5D42979F133F93D93698C6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABBF984FAB7CE16108D0E6A6BCC2A4B /* Pods-KSMainProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830169DE4353F785814265F208F6C9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D2AC4D5AAD7A9BE180700BF0A98CB3 /* KSProtocolModuleManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSProtocolModuleManager/KSProtocolModuleManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D573D8F9E9E1527658AAC61EE6CCC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F87D12416D847E4F2C2A362E079E608 /* Pods-KSMainProjectUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8EC06C4BBDC853965A520375CA0F7407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D2AC4D5AAD7A9BE180700BF0A98CB3 /* KSProtocolModuleManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSProtocolModuleManager/KSProtocolModuleManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C286AA7AA520AA20E427B2FEA30D07EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C04C41852620C2CF8A43C9D7BF331A5 /* KSGoodsDetail.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSGoodsDetail/KSGoodsDetail-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D60ADF606EB454ECFA2D915092242693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C128B8A05EACF2312B8A4673EBA0627 /* Pods-KSMainProjectTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D692377A9B6D2033B7E9D3CBC8A162C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90789FDF5C11D639DAF97E692BD292C5 /* Pods-KSMainProjectTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040E8DF32C1BC320AD3525BA8D849F82 /* Build configuration list for PBXNativeTarget "Pods-KSMainProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60ADF606EB454ECFA2D915092242693 /* Debug */,
+				D692377A9B6D2033B7E9D3CBC8A162C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B074B743B9A0013613AE27FFCE02F6D /* Build configuration list for PBXNativeTarget "Pods-KSMainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2643874AF3FD5BB0C2BBB66896D9CB63 /* Debug */,
+				4B0AC5FB5D42979F133F93D93698C6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49663741670F14ED59BFE4EB1FFC41D0 /* Build configuration list for PBXNativeTarget "KSGoodsDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8DE7BBD20E9CF372E27527ED9C2433 /* Debug */,
+				C286AA7AA520AA20E427B2FEA30D07EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B626580CA26661356879B5FB565048A6 /* Build configuration list for PBXNativeTarget "Pods-KSMainProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070197A0122AC9569F1A8C3554DB4702 /* Debug */,
+				8D573D8F9E9E1527658AAC61EE6CCC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78BCA9AF60DF435A9E8180D3F2B37F4 /* Build configuration list for PBXNativeTarget "KSProtocolModuleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830169DE4353F785814265F208F6C9BD /* Debug */,
+				8EC06C4BBDC853965A520375CA0F7407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
